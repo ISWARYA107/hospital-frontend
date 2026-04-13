@@ -177,14 +177,14 @@ function Login({ onLogin }) {
             </p>
           </div>
 
-          {isLogin && (
-            <div className="demo-box">
-              <p className="demo-title">Demo Accounts</p>
-              <p>Patient: patient@hospital.com / patient123</p>
-              <p>Doctor: doctor@hospital.com / doctor123</p>
-              <p>Admin: admin@hospital.com / admin123</p>
-            </div>
-          )}
+          {/* {isLogin && ( */}
+            // <div className="demo-box">
+            //   <p className="demo-title">Demo Accounts</p>
+            //   <p>Patient: patient@hospital.com / patient123</p>
+            //   <p>Doctor: doctor@hospital.com / doctor123</p>
+            //   <p>Admin: admin@hospital.com / admin123</p>
+            // </div>
+          {/* )} */}
         </div>
       </div>
     </div>
