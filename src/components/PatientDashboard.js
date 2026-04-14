@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
 
-const API = 'http://localhost:5000/api';
+const API = 'https://hospital-backend-ue0o.onrender.com/api';
 
 function PatientDashboard({ user, onLogout }) {
   const [patientId, setPatientId] = useState(null);
